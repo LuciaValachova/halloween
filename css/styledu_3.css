@@ -1,0 +1,262 @@
+body{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50%;
+	padding:0 20px;
+	color:#FF6D1F;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing:antialiased;
+}
+
+::-moz-selection { background: #8F99AB; color:#fff; text-shadow: none;  }
+::selection { background: #8F99AB; color:#fff; text-shadow: none;  }
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin:0 auto;
+	position: relative;
+	width: 709px;
+	height: 227px;
+}
+
+.logo a {
+	background: url('../img/logo.png') left top no-repeat;
+	display: block;
+	width: 709px;
+	height: 227px;
+	text-indent: -9999px;
+}
+.pumpkins {
+	margin:0px;
+	position: relative;
+	width: 200px;
+	height: 199px;
+}
+
+.pumpkins a.pumpkin1 {
+	background: url('../img/rszpumpkin1.png') no-repeat;
+	margin:-200px 0 0 25px;
+}
+
+.pumpkins a.pumpkin2 {
+	background: url('../img/rszpumpkin2.png') no-repeat;
+	margin:-200px 0px 0 975px;
+}
+
+.pumpkins a.pumpkin1, a.pumpkin2{
+	display: block;
+	width: 200px;
+	height: 199px;
+	text-indent: -9999px;
+}
+
+.cover {
+	background: url('../img/Background.jpg') 50% 0 no-repeat;
+	background-size: 1200px 1850px;
+	width: 1200px;
+	height:1850px;
+	border-radius: 10px;
+	margin-top: -227px;
+}
+
+.post-header {
+	margin-top: -1650px;
+
+}
+.post-meta {
+	font-style: italic;
+    font-weight: bold;
+}
+.post-meta time:before {
+	content: '  •  ';
+}
+.author {
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #fff;
+	margin: 0 4px;
+}
+
+.post-title {
+	color: #FF6D1F;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.cats {
+	background: url('../img/rsz_halloweencats.png') no-repeat;
+	display: block;
+	width: 200px;
+	height: 110px;
+	margin: 50px 0 0 270px;
+	text-indent: -9999px;
+}
+.post-content {
+		padding-top: 20px;
+		margin: 0px 400px 0 150px;
+		background:#0D0D0D;
+		background: rgba(13, 13, 13, 0.9);
+		border: 1px solid #FF6D1F;
+		border-radius: 5px;
+}
+.post-content h2{
+		color:#fff;
+		margin-left: 50px;
+		font-size: 25px;
+		text-align: left;
+		font-weight: normal;
+
+}
+.post-content p {
+		text-align: justify;
+		margin: -10px 50px 25px 50px;
+		font-size: 17px;
+		line-height: 25px;
+}
+.float-left {
+	float: left;
+}
+.float-right{
+	float: right;
+}
+
+.pullquote {
+	color: #fff;
+	background: #FF6D1F;
+	background: rgba(255, 109, 31, 0.8);
+	border-radius: 5px;
+	border: 1px solid #FF6D1F;
+	width: 300px;
+	text-align: left;
+	margin-left: 10px;
+	}
+
+.pullquote q {
+		font-size: 12px;
+		line-height: 20px;
+		font-style: italic;
+}
+
+.pullquote.float-right {
+	margin:10px -180px 3px 30px;
+}
+
+.ghost a {
+		background: url('../img/frightening-phantom.png');
+		display: block;
+		background-size: 250px 351px;
+		width: 250px;
+		height: 351px;
+		margin: 0 0 0 -120px;
+		text-indent: -9999px;
+}
+.ghost.float-left {
+	margin:10px 30px 0px 10px;
+}
+
+.linky.float-right {
+	color:#fff;
+	background: #FF6D1F;
+	background: rgba(255, 109, 31, 0.8);
+	border-radius: 5px;
+	border: 1px solid #FF6D1F;
+	width: 245px;
+	height: 445px;
+	margin:-110px -320px 200px -5px;
+	padding: 20px 20px 0 0;
+}
+
+.linky a,ul,li{
+		color:#fff;
+		list-style:none;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: normal;
+		text-align: left;
+}
+
+a:hover {
+	color: #0D0D0D;
+}
+
+.linky i {
+		text-decoration:underline;
+		font-size: 19px;
+		line-height: 20px;
+		text-align: left;
+}
+
+.linky h3 {
+	color: black;
+	font-size:18px;
+	line-height: 22px;
+	text-align: left;
+	margin:20px 0px -10px 30px;
+
+}
+
+.post-footer {
+		color: #fff;
+		margin: 40px auto;
+		background: #FF6D1F;
+		background: rgba(255, 109, 31, 0.8);
+		border: 1px solid #FF6D1F;
+		border-radius: 5px;
+		width: 1050px;
+		text-align: left;
+}
+
+.byline{
+	
+	margin: 0 40px;
+}
+
+.byline h3,p{
+		font-size: 16px;
+		line-height: 24px;
+}
+
+.byline h3,a {
+		color: black;
+}
+.photo{
+	float: left;
+}	
+.photo img{
+	border-radius: 50%;
+	border:5px solid #FF6D1F;
+	margin-right:50px;
+	margin-bottom: 30px;
+}
+a.photo
+
+.bio p{
+		width: 900px;
+	padding-bottom: 20px;
+}
+
+.reviews{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding: 0 4px;
+}
+
+.reviews img {
+		max-height: 200px;
+		border: 1px solid #FF6D1F;
+}
+
+.global-footer {
+
+		margin-top: 30px;
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: capitalize;
+
+}
